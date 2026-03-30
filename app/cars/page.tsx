@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import AppLayout from '@/components/AppLayout';
 import { motion } from 'motion/react';
@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Search, SlidersHorizontal } from 'lucide-react';
 
-export default function CarsPage() {
+function CarsContent() {
   const searchParams = useSearchParams();
   const [cars, setCars] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -128,6 +128,14 @@ export default function CarsPage() {
         )}
       </section>
     </AppLayout>
+  );
+}
+
+export default function CarsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-green-dk flex items-center justify-center text-green">جاري التحميل...</div>}>
+      <CarsContent />
+    </Suspense>
   );
 }
 
