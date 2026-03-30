@@ -1,0 +1,7 @@
+{
+  "name": "AURUM — Luxury Car Rental",
+  "description": "Premium Emerald Luxury car rental platform in Saudi Arabia. Experience true luxury on the roads of the Kingdom.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
