@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className={`${ibmPlexSans.variable} ${ibmPlexSerif.variable} ${ibmPlexMono.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning className="bg-[var(--bg)] text-[var(--text)] selection:bg-green selection:text-white transition-colors duration-300">
-        <ThemeProvider attribute="data-theme" defaultTheme="dark">
+        <ThemeProvider attribute="data-theme" defaultTheme="light">
           {children}
         </ThemeProvider>
       </body>

@@ -83,7 +83,7 @@ export default function Hero() {
                 placeholder="ابحث عن سيارة أحلامك..." 
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-6 py-4 bg-green-dk border border-green/20 text-snow outline-none focus:border-green transition-colors"
+                className="w-full px-6 py-4 bg-green/5 border border-green/30 text-snow outline-none focus:border-green transition-colors placeholder:text-muted/60"
               />
             </div>
             <button type="submit" className="px-10 py-4 green-gradient-btn text-white font-bold text-lg shadow-green hover:scale-105 transition-transform">
