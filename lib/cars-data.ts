@@ -9,7 +9,7 @@ export const cars = [
     hp: 563,
     seats: 4,
     engine: 'V12',
-    image: 'https://images.unsplash.com/photo-1631214524020-5e18497f332d?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=1000&auto=format&fit=crop',
     isFeatured: true,
     city: 'Riyadh'
   },
@@ -93,7 +93,7 @@ export const cars = [
     hp: 715,
     seats: 4,
     engine: 'V12',
-    image: 'https://images.unsplash.com/photo-1603584173870-7f3ca99a832d?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1599912027806-cfec9f5944b6?q=80&w=1000&auto=format&fit=crop',
     isFeatured: true,
     city: 'Riyadh'
   },
@@ -205,7 +205,7 @@ export const cars = [
     hp: 1500,
     seats: 2,
     engine: 'W16',
-    image: 'https://images.unsplash.com/photo-1566473065135-3220caad328b?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1000&auto=format&fit=crop',
     isFeatured: true,
     city: 'Riyadh'
   },
@@ -261,7 +261,7 @@ export const cars = [
     hp: 563,
     seats: 5,
     engine: 'V12',
-    image: 'https://images.unsplash.com/photo-1631214524020-5e18497f332d?q=80&w=1000&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=1000&auto=format&fit=crop',
     isFeatured: true,
     city: 'Riyadh'
   },
