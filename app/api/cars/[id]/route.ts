@@ -3,9 +3,9 @@ import { cars } from '@/lib/cars-data';
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const id = params.id;
+  const { id } = await params;
   const car = cars.find(c => c.id === id);
 
   if (!car) {
