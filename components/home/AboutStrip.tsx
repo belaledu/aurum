@@ -1,4 +1,6 @@
-import Image from 'next/image';
+'use client';
+
+import GeminiImage from '@/components/ui/GeminiImage';
 
 export default function AboutStrip() {
   return (
@@ -7,21 +9,19 @@ export default function AboutStrip() {
         {/* Left: Photos */}
         <div className="relative reveal-right">
           <div className="relative w-full aspect-[4/5] overflow-hidden border border-green/20">
-            <Image
-              src="https://picsum.photos/seed/interior/800/1000"
-              alt="Car Interior"
-              fill
-              className="object-cover"
-              referrerPolicy="no-referrer"
+            <GeminiImage
+              prompt="High-end luxury car interior, premium leather seats, modern digital dashboard, elegant ambient lighting, professional photography, cinematic lighting, 4k resolution"
+              alt="Luxury Car Interior"
+              className="w-full h-full"
+              aspectRatio="3:4"
             />
           </div>
           <div className="absolute -bottom-10 -right-10 w-2/3 aspect-square overflow-hidden border-4 border-green-dk shadow-dark">
-            <Image
-              src="https://picsum.photos/seed/exterior/600/600"
-              alt="Car Exterior"
-              fill
-              className="object-cover"
-              referrerPolicy="no-referrer"
+            <GeminiImage
+              prompt="Sleek luxury sports car parked in front of a modern architectural building at sunset, metallic finish, professional car photography, cinematic lighting, 4k resolution"
+              alt="Luxury Car Exterior"
+              className="w-full h-full"
+              aspectRatio="1:1"
             />
           </div>
           {/* Decorative Badge */}

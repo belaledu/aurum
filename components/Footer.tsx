@@ -78,14 +78,6 @@ export default function Footer() {
             <Link href="/terms" className="text-muted hover:text-green text-xs transition-colors">الشروط والأحكام</Link>
           </div>
         </div>
-        <div className="mt-4 text-center">
-          <p className="text-muted text-xs">
-            تم التطوير بواسطة{' '}
-            <a href="https://belalkaram.dev" target="_blank" rel="noopener noreferrer" aria-label="Belal Karam developer website" className="text-green hover:underline">
-              Belal Karam
-            </a>
-          </p>
-        </div>
       </div>
     </footer>
   );

@@ -97,6 +97,13 @@ Renting a luxury vehicle often involves fragmented processes, lack of real-time 
 *   **Payment Gateway Integration:** Implement Stripe or local Saudi payment methods (Mada, STC Pay) for real-time transactions.
 *   **Admin Panel:** A dedicated dashboard for managing car inventory and booking requests without manual Google Sheets entry.
 
+## Screenshots
+*(Placeholders for future screenshots)*
+![Home Page Hero](https://picsum.photos/seed/aurum-hero/1200/600)
+![Car Listing](https://picsum.photos/seed/aurum-cars/1200/600)
+![Booking Process](https://picsum.photos/seed/aurum-booking/1200/600)
+
+---
 
 # 🚀 CV / Portfolio Highlights
 
