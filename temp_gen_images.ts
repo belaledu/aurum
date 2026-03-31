@@ -17,7 +17,7 @@ async function generateImages() {
   });
 
   let interiorBase64 = "";
-  for (const part of interiorResponse.candidates[0].content.parts) {
+  for (const part of (interiorResponse.candidates?.[0]?.content?.parts ?? [])) {
     if (part.inlineData) {
       interiorBase64 = part.inlineData.data;
     }
@@ -37,7 +37,7 @@ async function generateImages() {
   });
 
   let exteriorBase64 = "";
-  for (const part of exteriorResponse.candidates[0].content.parts) {
+  for (const part of (exteriorResponse.candidates?.[0]?.content?.parts ?? [])) {
     if (part.inlineData) {
       exteriorBase64 = part.inlineData.data;
     }
